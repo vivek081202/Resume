@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Registeration form</h1>
+    <form action="">
+        <label for="FName">First Name: </label>
+        <input type="text" >
+        <br>
+        <br>
+        <label for="LName">Second Name: </label>
+        <input type="text" >
+        <br>
+        <br>
+        <label for="DOB">DOB: </label>
+        <input type="date" >
+        <br>
+        <br>
+        <label for="phone">Phone NO. </label>
+        <input type="tel">
+        <br><br>
+        <!-- Label binding with radio input -->
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male"> 
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">  
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <!-- Label binding with email input -->
+        <label for="mail">Email ID: </label>
+        <input type="email" id="mail">
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password">
+        <br>
+        <br>
+        <label for="color">Favourite Color: </label>
+        <input type="color">
+        <br><br>
+        <label for="cars">Country: </label>
+        <select name="" id="cars">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Australia">Australia</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Germany">Germany</option>
+        </select>
+        <br><br>
+        <label for="Abouturself">Description</label>
+        <br>
+        <textarea name="Abouturself" id="Abouturself" cols="30" rows="6"></textarea>
+        <br><br>
+        <input type="file">
+        <br><br>
+        <input type="search" name="" id="">
+        <br><br>
+        <label for="">Fruits & Vegetables You like</label>
+        <select id="groups" name="groups">
+            <optgroup label="fruits">
+              <option>Banana</option>
+              <option selected>Cherry</option>
+              <option>Lemon</option>
+            </optgroup>
+            <optgroup label="vegetables">
+              <option>Carrot</option>
+              <option>Eggplant</option>
+              <option>Potato</option>
+            </optgroup>
+          </select>
+        <br><br>
+        <!-- Resetting all button -->
+        <input type="reset">
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
